@@ -85,7 +85,29 @@ match the JSON schema documented in `backend/main.py`.
       why WebSocket — back to the real ISR/C2 systems this mirrors. This
       is what makes the project an interview talking point, not just a repo
 
+## Setup
+
+Create and activate a virtual environment from the project root:
+
+```bash
+python -m venv .venv
+```
+
+**Windows (PowerShell):**
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+**macOS / Linux:**
+```bash
+source .venv/bin/activate
+```
+
+`.venv/` is already in `.gitignore`.
+
 ## Running it
+
+With the venv activated:
 
 ```bash
 cd backend
